@@ -105,5 +105,6 @@ dist
 .DS_Store
 build/
 .firebaserc
+.firebase
 firebase.json
 hosting.*
