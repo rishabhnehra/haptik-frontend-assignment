@@ -1,0 +1,67 @@
+.App {
+    width: 350px;
+    background-color: #226089;
+    color: #FFF;
+    border-radius: 9px;
+
+    h2 {
+        // margin: 8px 16px;
+        padding: 12px;
+        font-size: 1.3em;
+    }
+
+    .input-friend {
+        width: calc(100% - 24px);
+        font-size: 1em;
+        padding: 8px 0 8px 8px;
+        border: none;
+        outline: none;
+        background-color: #f3558e;
+        color: #FFF;
+        margin: 0 12px;
+        border-radius: 5px;
+
+        &::placeholder {
+            color: #FFF;
+        }
+    }
+
+    .friend-list {
+        background-color: #226089;
+    }
+
+    input[type=submit] {
+        display: none;
+    }
+
+    ul {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .pagination {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: 226089;
+        width: 100%;
+        padding: 6px 12px 12px 12px;
+
+        .left, .right {
+            border: none;
+            border-radius: 50%;
+            font-size: 1.3em;
+            width: 36px;
+            height: 36px;
+        }
+
+        .left {
+            margin-right: 50px;
+        }
+
+        .right {
+            margin-left: 50px;
+        }
+    }
+}
